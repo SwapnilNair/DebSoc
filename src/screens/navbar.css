@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+.navbar {
+  width: 98vw;
+  background-color:rgb(12, 11, 11);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5vw 1vw;
+
+  z-index: 50;
+}
+.navbar__logo h2 >a {
+    color: rgb(209, 204, 204);
+    font-size:calc(16px + 1.5vw);
+    cursor: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    padding-left: 3vw;
+    scroll-padding-top: 1vw;
+  
+  }
+  .navbar__logo h2>a:hover {
+    color: white;
+    font-size :calc(16px + 1.52vw);
+    cursor:pointer;
+  }
+  .navbar__links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .navbar__links > li {
+    padding-left: 1vw;
+  }
+  
+  .navbar__links > li > a {
+    text-decoration: none;
+    color: rgb(209, 204, 204);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: calc(3.3px + 0.9vw);
+    display: flex;
+    align-items: left;
+    padding: 1vw;
+    border-radius: 1vw;
+  }
+  .navbar__links > li > a > span {
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+  }
+  .links:hover{
+    color:white;
+    font-size: calc(3.3px + 0.92vw);
+   
+  }
