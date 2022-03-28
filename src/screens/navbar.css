@@ -47,7 +47,7 @@
   .navbar__links > li > a > span {
     display: flex;
     align-items: center;
-    margin-left: 2vw;
+    margin-left: 2vw;   
   }
   .links:hover{
     color:white;
